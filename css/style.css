@@ -236,3 +236,54 @@
   color: #0099ff;
 }
 
+
+
+#cedit {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+#cedit .cedit-content {
+  margin: auto;
+  padding: 70px 20px;
+  background: #fafaf7;
+  border-radius: 16px;
+  text-align: center;
+}
+
+#cedit .cedit-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+#cedit .cedit-content .cedit-text {
+  font-size: 16px;
+  color: #627382;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+#cedit .cedit-content .cedit-btn {
+  background: #0099ff;
+  color: #ffffff;
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+#cedit .cedit-content .cedit-btn:hover {
+  background: #2f7448;
+}
+
+#cedit .cedit-content .cedit-p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #627382;
+}
+
