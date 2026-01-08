@@ -131,7 +131,7 @@
 }
 
 #works {
-  padding: 80px 0;
+  padding-top: 80px;
   text-align: center;
 }
 #works h2 {
@@ -148,7 +148,7 @@
 #works .works-group {
   margin-top: 44px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 24px;
 }
 
@@ -179,3 +179,60 @@
   font-size: 16px;
   color: #627382;
 }
+
+
+#soluton {
+  padding-top: 120px;
+  background: #ffffff;
+}
+#soluton .soluton-left{
+  width: 600px;
+  margin-right: 60px;
+}
+#soluton .soluton-left img{
+  width: 100%;
+}
+
+#soluton .soluton-content {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#soluton .solution-tag {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0099ff;
+  letter-spacing: 1px;
+}
+
+
+#soluton .soluton-right h2 {
+  font-size: 48px;
+  margin: 16px 0;
+  color: #001931;
+}
+
+#soluton .soluton-right p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #627382;
+  margin-bottom: 30px;
+}
+
+#soluton .soluton-list {
+  list-style: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+#soluton .soluton-list li {
+  padding-left: 30px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #001931;
+}
+#soluton .soluton-list li i{
+  color: #0099ff;
+}
+
