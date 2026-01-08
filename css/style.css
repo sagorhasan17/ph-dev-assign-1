@@ -93,7 +93,6 @@
   color: #5271ff;
 }
 
-
 #hero-banner h1 {
   font-size: 70px;
   margin: 20px 0;
@@ -129,4 +128,54 @@
 }
 #hero-banner .see-btn:hover {
   border-color: #5271ff;
+}
+
+#works {
+  padding: 80px 0;
+  text-align: center;
+}
+#works h2 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: bold;
+}
+#works .sub-text {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #627382;
+}
+
+#works .works-group {
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+#works .works-card {
+  width: 322px;
+  background: #fff;
+  padding: 70px 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+#works .card-image {
+  width: 60px;
+  height: 60px;
+  background-color: #0099ff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#works .card-image img {
+  width: 100%;
+}
+#works .works-card h4 {
+  margin: 20px 0;
+  font-size: 24px;
+  color: #001931;
+}
+#works .works-card h4 p {
+  font-size: 16px;
+  color: #627382;
 }
